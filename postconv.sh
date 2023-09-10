@@ -6,13 +6,13 @@ function create_template() {
 <!DOCTYPE html>
 <html>
   <!-- Header section -->
-  <header>
+  <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>$2 Web Logs</title>
     <link rel="icon" type="image/gif" href="../../assets/cutdoggy.gif">
     <link rel="stylesheet" href="../../style.css">
-  </header>
+  </head>
   <!-- Header section end -->
 
 <!-- Body section -->
