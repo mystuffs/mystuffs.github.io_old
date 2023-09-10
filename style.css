@@ -1,0 +1,64 @@
+/* Kept it, in case if I want to change the font */
+/*
+@font-face {
+    font-family: "Lexend-Regular";
+    src: url("./fonts/Lexend-Regular.ttf");
+}
+*/
+
+body {
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+
+p#mono {
+    font-family: monospace, monospace;
+    font-size: 15px;
+}
+
+p#good-read {
+    font-family: "Sans-serif";
+    position: absolute;
+}
+
+h2#www {
+    text-decoration: underline;
+    margin: auto;
+    height: 40px;
+}
+
+h2#normal {
+    text-decoration: underline;
+    height: 30px;
+}
+
+h3#normal {
+    text-decoration: underline;
+    height: 20px;
+}
+
+br {
+    width: 10px;
+    height: 10px;
+}
+
+img#absolute-image {
+    width: 25px;
+    position: absolute;
+}
+
+img#left-image {
+    width: 30px;
+    float: left;
+}
+
+img#center {
+    display: block;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text-center {
+    text-align: center;
+}

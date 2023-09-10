@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Neko</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="refresh" content="5; URL=./index.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/gif" href="./assets/ani_cat.gif">
+  </header>
+
+  <img src="./assets/loading.gif"></img>
+  <script type="text/javascript">
+    (async function () {
+	let resp = await fetch("https://nekos.best/api/v2/neko");
+	let json = await resp.json();
+
+	if (json.results[0] instanceof Object) {
+	    window.location.href = json.results[0].url;
+	}
+    })();
+  </script>
+
+</html>
